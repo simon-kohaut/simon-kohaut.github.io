@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://simon-kohaut.github.io/sitemap.xml
