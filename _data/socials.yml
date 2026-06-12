@@ -1,10 +1,9 @@
 # Social media and contact info — displayed in the order defined here.
 # See https://github.com/george-gca/jekyll-socials for supported keys.
+# Remove or comment out any entry you don't have yet — nil values crash the plugin.
 email: simon.kohaut@cs.tu-darmstadt.de
 scholar_userid: n-QvLGgAAAAJ
 github_username: simon-kohaut
-linkedin_username: simon-kohaut
-orcid_id: # add your ORCID ID when available
-work_url: https://ml-research.github.io/people/skohaut/
-cv_pdf: # add path to CV PDF when available (e.g. /assets/pdf/cv.pdf)
-rss_icon: false
+linkedin_username: simon-kohaut-5b7411188
+# orcid_id:       # add when available
+# cv_pdf:         # add path to PDF when available, e.g. /assets/pdf/cv.pdf

@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2021-09-01 00:00:00+0100
+date: 2021-09-24 00:00:00+0100
 inline: true
 ---
 
-Paper published at <strong>IEEE ITSC 2021</strong>: <em>Error decomposition for hybrid localization systems</em>.
+Paper published at <strong>2023 IEEE 26th International Conference on Intelligent Transportation Systems (ITSC)</strong>: <a href="https://ieeexplore.ieee.org/document/10422083">Error decomposition for hybrid localization systems</a>.

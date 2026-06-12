@@ -1,47 +1,40 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+title: code
+description: Open-source software released as part of my research.
 nav: true
 nav_order: 4
 ---
 
-{% if site.data.repositories.github_users %}
+## ProMis — Probabilistic Mission Design
 
-## GitHub users
+ProMis is a framework enabling agents to formalize knowledge about local rules and traffic regulations to constrain their actions and movements under uncertainty. It employs **probabilistic first-order logic** to combine formal symbolic reasoning with probabilistic inference, generating probability fields across state spaces that indicate how likely an agent is to satisfy its constitutional guidelines. These fields support path planning, automated clearance decisions, parameter optimization, and mission impact analysis.
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %}
-    {% include repository/repo_user.liquid username=user %}
-  {% endfor %}
+  {% include repository/repo.liquid repository="HRI-EU/ProMis" %}
 </div>
 
 ---
 
-{% if site.repo_trophies.enabled %}
-{% for user in site.data.repositories.github_users %}
-{% if site.data.repositories.github_users.size > 1 %}
+## Resin — Reactive Signal Inference
 
-  <h4>{{ user }}</h4>
-  {% endif %}
-  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo_trophies.liquid username=user %}
-  </div>
+Resin is a **probabilistic first-order logic programming language** for building reactive inference pipelines over continuous, asynchronous data streams. The core library is written in Rust with a Python package available on PyPI. It compiles programs through Answer Set Programming into reactive computation graphs that perform algebraic model counting in real time.
+
+Resin supports multiple inference modes including probabilistic inference, most-probable explanations, fuzzy degree-of-truth evaluation, and forward-mode automatic differentiation for gradient-based parameter learning.
+
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+  {% include repository/repo.liquid repository="simon-kohaut/Resin" %}
+</div>
 
 ---
 
-{% endfor %}
-{% endif %}
-{% endif %}
+## CycliST — Cyclical State Transition Benchmark
 
-{% if site.data.repositories.github_repos %}
+CycliST is a dataset generation framework and benchmark for evaluating **video-language models on cyclical state transition reasoning**, motivated by traffic scenarios such as traffic lights, roundabouts, and pedestrian crossings. Randomized scenes are rendered with Blender and automatically labeled to produce video question-answer pairs. Accepted at *Data-centric Machine Learning Research (DMLR)*.
 
-## GitHub Repositories
+The dataset itself available on [HuggingFace](https://huggingface.co/datasets/AIML-TUDA/CycliST).
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %}
-    {% include repository/repo.liquid repository=repo %}
-  {% endfor %}
+  {% include repository/repo.liquid repository="simon-kohaut/CycliST" %}
 </div>
-{% endif %}

@@ -1,11 +1,11 @@
 cv:
   name: Simon Kohaut
-  label: PhD Researcher in Artificial Intelligence
+  label: PhD Candidate in Artificial Intelligence
   email: simon.kohaut@cs.tu-darmstadt.de
   location: Darmstadt, Germany
   image: ""
   summary: >
-    PhD researcher at the AI & Machine Learning Lab, TU Darmstadt, supervised by Prof. Kristian Kersting
+    PhD candidate at the AI & Machine Learning Lab, TU Darmstadt, supervised by Prof. Kristian Kersting
     and co-supervised by the Honda Research Institute Europe. My research focuses on neuro-symbolic AI
     and trustworthy systems for robotics and autonomous transportation.
 
@@ -38,7 +38,7 @@ cv:
 
     Experience:
       - company: AI & Machine Learning Lab, TU Darmstadt
-        position: PhD Researcher
+        position: PhD Candidate
         location: Darmstadt, Germany
         url: https://ml-research.github.io
         start_date: 2022

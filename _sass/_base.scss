@@ -1,0 +1,20 @@
+/*******************************************************************************
+ * Global overrides — section headings and horizontal rules use accent color
+ ******************************************************************************/
+
+// Year headings on publications page
+.publications h2.bibliography {
+  color: var(--global-theme-color);
+  border-top-color: var(--global-theme-color);
+}
+
+// Category headings on projects page
+h2.category {
+  color: var(--global-theme-color);
+  border-bottom-color: var(--global-theme-color);
+}
+
+// Horizontal rules
+hr {
+  border-top-color: var(--global-theme-color);
+}

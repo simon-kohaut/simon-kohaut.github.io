@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2025-10-01 00:00:00+0100
+date: 2025-10-19 00:00:00+0100
 inline: true
 ---
 
-Paper published at <strong>IEEE/RSJ IROS 2025</strong>: <em>The Constitutional Filter: Bayesian estimation of compliant agents</em>.
+Paper published at <strong>2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</strong>: <a href="https://ieeexplore.ieee.org/document/11246215">The Constitutional Filter: Bayesian estimation of compliant agents</a>.

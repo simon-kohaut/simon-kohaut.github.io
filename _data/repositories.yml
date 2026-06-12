@@ -4,5 +4,6 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-  - simon-kohaut/simon-kohaut.github.io
-  # Add your public research repositories here
+  - HRI-EU/ProMis
+  - simon-kohaut/Resin
+  - simon-kohaut/CycliST
