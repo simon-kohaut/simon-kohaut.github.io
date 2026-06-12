@@ -1,8 +1,6 @@
 # simon-kohaut.github.io
 
-Personal academic website of **Simon Kohaut**, PhD researcher at the [AI & Machine Learning Lab](https://ml-research.github.io) at [TU Darmstadt](https://www.tu-darmstadt.de), supervised by Prof. Kristian Kersting and co-supervised by the [Honda Research Institute Europe](https://www.honda-ri.de/).
-
-**Research focus:** Neuro-symbolic AI and trustworthy systems for robotics and autonomous transportation.
+Personal website of **Simon Kohaut**, PhD researcher at the [AI & Machine Learning Lab](https://ml-research.github.io) at [TU Darmstadt](https://www.tu-darmstadt.de).
 
 Live at: [simon-kohaut.github.io](https://simon-kohaut.github.io)
 
